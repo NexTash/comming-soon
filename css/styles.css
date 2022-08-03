@@ -256,7 +256,7 @@ html {
 
 .right-section {
     width: 80%;
-    height: 80%;
+    height: 80vh;
     position: relative;
     padding: 60px;
     
@@ -358,4 +358,13 @@ html {
 .right-section .footer-icons>li>a>i[class*="pinterest"] {
     color: #E1C013;
     border-color: #E1C013;
+}
+
+
+@media (max-width:767px){
+    .right-section {
+        width: 100%;
+        height: 100vh;
+    }
+
 }
